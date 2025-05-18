@@ -249,3 +249,59 @@ nav ul li a {
     color: #C271FF;
     margin-right: 5px;
 }
+
+/* Membership section styling */
+.membership-section {
+    background-color: #071629;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.membership-section .section-title {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.membership-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto 60px;
+}
+
+.membership-card {
+    width: 255px;
+    margin: 0 20px;
+}
+
+.membership-card img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.membership-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.membership-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.membership-button {
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
