@@ -1,0 +1,151 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header styling */
+header {
+    background-image: url('../images/banner.png'); /* Replace with your actual banner image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px 80px;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 170px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Hero section styling */
+.hero {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+.register-btn {
+    background-color: #FF5757; /* Replace with your actual color from Figma */
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Author profiles section */
+.profiles {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.profile {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 14px;
+}
+
+/* Quote section styling */
+.quote-section {
+    background-color: #C271FF;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.quote-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.quote-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+.quote-content {
+    text-align: left;
+}
+
+.quote-text {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.quote-author-title {
+    font-size: 18px;
+    font-style: italic;
+}
