@@ -277,8 +277,16 @@ main section:first-child > div:last-child > div > div p {
     font-style: italic;
     font-size: 0.9rem;
 }
+
+
         
 /* Quote Section */
+
+.quote-block {
+position : relative;
+z-index : 10;
+}
+
 main section:nth-child(2) {
     padding: 4rem 2rem;
     background-color: var(--purple-color);
